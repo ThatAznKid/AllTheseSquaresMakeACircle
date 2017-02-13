@@ -20,7 +20,7 @@ int main() {
 
   int x = 0;
 	
-  for (int x = 0; x < XRES; x+=10) { 
+  for (x = 0; x < XRES; x+=10) { 
     c.red = x/2;
     c.green = x/3;
     c.blue = x/4;
